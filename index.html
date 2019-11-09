@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="cs" dir="ltr">
+  <head>
+   <style>body{
+    background-color:beige;
+    margin:0 auto;
+}
+#content{
+    margin:0 auto;
+    width:500px;
+    height:auto;
+    margin-top:10px;
+    border:1px solid black;
+}
+#head{
+    height:auto;
+    background: #2a88ad;
+    border: 1px solid #257c9e;
+}
+h1{
+    text-align:center;
+    font-size: 25px;
+    color: #fff;
+}
+#mainForm{
+    text-align:center;
+    margin:0 auto;
+    background-color:white;
+}
+#mainForm input{
+    margin-bottom:10px;
+}
+#p_name{
+    margin:0;
+    padding-top:10px;
+    margin-right:56px;
+}
+#p_school{
+    margin:0;
+    margin-right:36px;
+}
+#p_diplom{
+    margin:0;
+    margin-right:98px;
+}
+#mainForm button{
+    margin-bottom:10px;
+    
+}
+</style>
+    <meta charset="utf-8">
+    <title>Diplom creator</title>
+  </head>
+  <body>
+    <div id="content">
+    <div id="head">
+     <h1>Tvorba diplomu</h1>
+    </div>
+    <form method="POST" action="" id="mainForm">
+      <p id="p_name">Příjemce: <input type="text" name="name" id="name" required></p>
+      <p id="p_school">Škola: <input type="text" name="school" id="school" required></p>
+      <p id="p_diplom">Jméno diplomu: <input type="text" name="diplom" id="diplom" required></p>
+      <button type="submit">Vytvořit diplom!</button>
+    </form>
+  </div>
+</body>
+</html>
