@@ -5,12 +5,13 @@
   "main": "start.js",
   "scripts": {
     "start": "node start.js"
-},
+  },
   "author": "Vratislav Holub",
   "license": "ISC",
   "dependencies": {
     "express": "^4.17.1",
-    "fs": "0.0.1-security"
+    "fs": "0.0.1-security",
+    "pdfkit": "^0.10.0"
   },
   "engines": {
     "node": "8.11.1"
